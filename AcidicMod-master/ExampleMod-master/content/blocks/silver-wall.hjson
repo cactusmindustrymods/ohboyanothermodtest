@@ -1,0 +1,10 @@
+name: Acidium Wall
+description: A wall made of acidium. Quite strong.
+type: Wall
+health: 800
+size: 2
+requirements: [
+  acidium/40
+]
+category: defense
+research: titanium-wall

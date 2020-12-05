@@ -1,0 +1,23 @@
+name: Acidic Sprayer Factory
+description: Makes Acidic Sprayer units.
+type: UnitFactory
+unitType: chrome-wraith
+size: 2
+produceTime: 350
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      silicon/10
+      acidium/5
+    ]
+  }
+}
+category: units
+research: wraith-factory
+requirements: [
+  acidium/70
+  lead/90
+  silicon/40
+  titanium/20
+]

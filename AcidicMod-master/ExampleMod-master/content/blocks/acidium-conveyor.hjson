@@ -1,0 +1,12 @@
+type: Conveyor
+name: Acidium conveyor
+description: A fast conveyor.
+requirements: [
+  titanium/3
+  copper/3
+  lead/3
+  acidium/3
+]
+category: distribution
+speed: 0.15
+research: titanium-conveyor

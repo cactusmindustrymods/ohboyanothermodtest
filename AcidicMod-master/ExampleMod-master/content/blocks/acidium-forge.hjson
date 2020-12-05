@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Acidium Forge
+description: Combines acid and acid powder to produce acidium.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      acid-powder/3
+    ]
+  }
+  liquid: {
+    liquid: acid
+    amount: 1
+  }
+}
+requirements: [
+  lead/50
+  thorium/80
+  silicon/60
+  copper/50
+]
+category: crafting
+research: seperator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: acidium/1

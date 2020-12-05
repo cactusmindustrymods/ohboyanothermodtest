@@ -1,0 +1,15 @@
+type: flyingUnit
+name: Acidic Sprayer
+description: Sprays acid everywhere.
+speed: 1
+flying: true
+health: 120
+engineOffset: 5.5
+range: 160
+weapon: {
+  name: acid-blaster
+  length: 1.5
+  reload: 10
+  alternate: true
+  bullet: lightning
+}

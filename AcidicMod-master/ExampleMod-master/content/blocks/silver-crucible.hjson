@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "Acidium Crucible"
+description: "Melts acid powder with acid into acidium."
+liquidCapacity: 50
+outputMaterial: {
+  material: acidium
+  amount: 7
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.6
+  item: acid powder
+}
+requirements: [
+  lead/50
+  copper/80
+  silicon/20
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

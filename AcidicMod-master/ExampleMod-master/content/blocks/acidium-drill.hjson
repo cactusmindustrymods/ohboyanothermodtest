@@ -1,0 +1,21 @@
+name: Acidium Drill
+description: Blasts the ground with acid.
+type: Drill
+size: 3
+tier: 2
+drillTime: 200
+consumes: {
+  power: 3
+  liquid: {
+    liquid: acid
+    amount: 0.1
+    booster: true
+  }
+}
+requirements: [
+  acidium/80
+  silicon/40
+  graphite/40
+]
+category: production
+research: laser-drill

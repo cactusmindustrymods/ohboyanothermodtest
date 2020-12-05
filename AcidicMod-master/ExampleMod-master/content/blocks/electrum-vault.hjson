@@ -1,0 +1,14 @@
+name: Acidium Vault
+description: Store your items! We are not responsible for item corrosion.
+type: Vault
+itemCapacity: 3000
+hasItems: true
+health: 2000
+size: 3
+requirements: [
+  acidium/40
+  titanium/60
+  thorium/40
+]
+category: effect
+research: vault

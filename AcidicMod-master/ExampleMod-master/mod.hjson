@@ -1,0 +1,6 @@
+name: "acidic-lands"
+displayName: "[acid]Acidic[darkgray]Lands" //what displays in the mod selection menu
+author: "CactusJupiter"
+description: "My first mod. Adds new [gray]ores[] and [acid]machinery!"
+version: "3.2"
+minGameVersion: "103"

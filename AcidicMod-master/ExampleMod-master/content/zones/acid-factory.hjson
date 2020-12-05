@@ -1,0 +1,32 @@
+name: Acid Factory
+description: The forbidden factory of acid.
+loadout: basicFoundation
+startingItems: [
+  copper/200
+  lead/300
+]
+conditionWave: 10
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: groundZero
+    wave: 60
+  }
+  {
+    type: Unlock
+    block: mass-driver
+  }
+]
+resources: [
+  copper
+  silver
+  lead
+  coal
+  titanium
+  acidium
+  thorium
+  acid
+  acidium powder
+  sand
+]
